@@ -1,0 +1,27 @@
+{% style %}
+  .random-recipes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+  }
+{% endstyle %}
+
+<div class="page-width random-recipes">
+  <button class="button button--secondary" id="special__btn">Take me somewhere else</button>
+</div>
+
+<div class="display--link"></div>
+
+{% schema %}
+{
+  "name": "Random Recipes Page",
+  "presets": [
+    {
+      "name": "Random Recipes Page"
+    }
+  ]
+}
+{% endschema %}
+
+<script src="{{ 'rand.js' | asset_url }}" defer="defer" type="module"></script>
