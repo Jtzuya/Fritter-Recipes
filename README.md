@@ -10,7 +10,7 @@
 * See index.liquid file
 * See full action [here](https://fritter.recipes/pages/goto-kenyan-recipes)
 
-###### or at any page that has /page/goto-(slug) and look for this image
+###### or at any page that has pathname of /pages/goto-(path) and look for this image
 <img src="https://github.com/Jtzuya/randomize-path/blob/master/assets/button.png" width="350" height="auto"/>
 -
 Ignore below instructions:
